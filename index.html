@@ -1,19 +1,28 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>US disturbance area percentage in landscape</title>
-      <style>
-        /* Ensure the iframe fills the entire viewport */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    
+    <title>US disturbance area percentage in landscape</title>
+    <style>
+        /* Ensure the iframe and all parent elements fill the entire viewport */
         html, body {
             margin: 0;
             padding: 0;
             height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            flex-grow: 1;
         }
 
         iframe {
@@ -23,6 +32,7 @@
         }
     </style>
 </head>
+	
 <body>
 	<div>
 	        <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?layers=a0c08bd0be834d769825180374b81b0e" allowfullscreen>
