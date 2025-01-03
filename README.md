@@ -4,4 +4,4 @@
 
 The map is available through [Google Earth Engine](https://ee-gers.projects.earthengine.app/view/us-disturbance)
 
-Others related are in building...
+Other related (e.g., data downloading) are under development and will be available after publication.
