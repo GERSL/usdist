@@ -5,3 +5,9 @@
 The map is available through [Google Earth Engine](https://ee-gers.projects.earthengine.app/view/us-disturbance)
 
 Other related (e.g., data downloading) are under development and will be available after publication.
+## Overview of disturbance production
+We leveraged long-term historical Landsat data and advanced time series analysis algorithms to map land disturbances and their associated agents across the U.S. from 1988 to 2022. The map production includes Landsat data compositing, training data collection, disturbance detection, and agent classification ([Figure 1](#figure1)).
+
+<a name="figure1"></a>
+![Workflow](https://github.com/GERSL/usdist/raw/main/figures/fig_flowchart_us_disturbance_product.svg)  
+**Figure 1.** Workflow of U.S. disturbance product. COLD: COntinuous monitoring of Land Disturbance. ODACA: Object-based Disturbance Agent Classification Approach. MAX-RNB: Maximum ratio of near-infrared to blue band reflectance.
