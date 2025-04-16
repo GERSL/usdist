@@ -5,7 +5,7 @@ We define land disturbance as any relatively discrete event that substantially a
 
 <a name="figure1"></a>
 ![Map](https://github.com/GERSL/usdist/raw/main/figures/fig_agent_map.svg)  
-**Figure 1.** Land disturbance agent maps across the US (1988-2022). a. US-wide map highlighting each pixel’s most recent disturbance agent, revealing the spatial distribution and diversity of disturbances at 30-meter resolution. The solid boundaries represent US Fifth National Climate Assessment regions, while the dashed boundaries indicate state border. b-h. Examples of disturbance agents from locations #1-7 of the US include human-directed disturbances (logging, construction, agricultural disturbance), wild disturbances (stress, wind/geohazard, fire), and water disturbance, respectively. The corresponding disturbance severity maps are presented in Extended Data Fig. 2. i-j. Latitudinal and longitudinal profiles of stacked disturbance areas. Area statistics (Mha) are calculated at 15-km intervals and stacked chronologically from 1988 to 2022 for different disturbance agents. All the figures share the same legend: brighter color curves represent earlier disturbance years (toward 1988), while darker colors indicate more recent years (toward 2022). 
+**Figure 1.** Land disturbance agent maps across the US (1988-2022). a. US-wide map highlighting each pixel’s most recent disturbance agent, revealing the spatial distribution and diversity of disturbances at 30-meter resolution. The solid boundaries represent US Fifth National Climate Assessment regions, while the dashed boundaries indicate state border. b-h. Examples of disturbance agents from locations #1-7 of the US include human-directed disturbances (logging, construction, agricultural disturbance), wild disturbances (stress, wind/geohazard, fire), and water disturbance, respectively. The corresponding disturbance severity maps are presented in Extended Data Fig. 2. i-j. Latitudinal and longitudinal profiles of stacked disturbance areas. Area statistics (Mha) are calculated at 15-km intervals and stacked chronologically from 1988 to 2022 for different disturbance agents. All the figures share the same legend: brighter color curves represent earlier disturbance years (toward 1988), while darker colors indicate more recent years (toward 2022). An interactive application is available on [Google Earth Engine](https://ee-gers.projects.earthengine.app/view/us-disturbance).
 
 <a name="table1"></a>
 **Table 1.** Definition of the land disturbance causal agent classes. The first disturbance over time was identified if multiple disturbances occurred within one year, and only the disturbance that caused lasting (>6 months) ecological impacts was mapped.
@@ -44,9 +44,16 @@ We provide the code resources (package name associated with the folder provided 
 - **Analysis**: Code for data analysis and visualization (MATLAB + Python (Jupyter Notebook))
 - **Accuracy**: Accuracy assessment and area adjustment (MATLAB + Python)
 
-## Dataset
-The disturbance agent data can be viewed through [Google Earth Engine](https://ee-gers.projects.earthengine.app/view/us-disturbance).
+## US land disturbance products
 
+### Product layers
+- **Disturbance Time**:
+  - Delivered file name: *_TIME.tif
+- **Disturbance Agent**:
+  - Delivered file name: *_AGENT.tif
+- **Disturbance Magnitude**:
+  - Delivered file name: *_MAG.tif
+  
 ## Other
 Any other remaining resources can be provided upon request. Please contact the authors for further details.
 
