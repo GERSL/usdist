@@ -1,6 +1,6 @@
 # Land Disturbance across the Conterminous United States (US)
 
-## Land Disturbance and Land disturbance agents
+## Land Disturbance and Land Disturbance agents
 We define land disturbance as any relatively discrete event that substantially alters the biophysical state of the land surface, including both natural and anthropogenic drivers. Crucially, our definition focuses on detectable deviations from baseline conditions or established patterns, rather than implying an inherent negative value judgment sometimes associated with the term in specific ecological contexts. Consequently, some mapped disturbance events (e.g., certain agricultural practices or water disturbances) might be ecologically neutral or even positive in some contexts, but still represent detectable changes relevant to landscape dynamics. We leveraged the Landsat archive from 1982 to 2023 to generate a novel, 30-meter resolution dataset of annual land disturbance agents across the US, spanning 1988 to 2022 ([Figure 1](#figure1)), and their definitions are described in [Land Disturbance Agent page](https://github.com/GERSL/usdist/wiki/Land-Disturbance-Agent).
 
 <a name="figure1"></a>
