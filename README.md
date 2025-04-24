@@ -34,5 +34,3 @@ Any other remaining resources can be provided upon request. Please contact the a
 Qiu, S., Zhu, Z., Yang, X., Yang, Z., Woodcock, C., Fahey, R., Stehman, S., Zhang, Y., Cullerton, M., Grinstead, A., Hong, F., Song, K., Suh, J. W., Li, T., Ren, W., and Neman, R., 2025. Satellite evidence for a shift from human-directed to wild disturbances in the US. Nature Geoscience, under review
 
 Zhu, Z., Zhang, J., Yang, Z., Aljaddani, A.H., Cohen, W.B., Qiu, S. and Zhou, C., 2020. Continuous monitoring of land disturbance based on Landsat time series. Remote Sensing of Environment, 238, p.111116. https://doi.org/10.1016/j.rse.2019.03.009
-
-Qiu, S., Zhu, Z., and Yang, X., 2022. Characterization of land disturbances based on Landsat time series. ESS Open Archive. April 04, 2022. https://doi.org/10.1002/essoar.10511010.1
