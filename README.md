@@ -22,7 +22,7 @@ We provide the code resources (package name associated with the folder provided 
 - **Analysis**: Code for data analysis and visualization (MATLAB + Python (Jupyter Notebook))
 - **Accuracy**: Accuracy assessment and area adjustment (MATLAB + Python)
 
-## US land disturbance products
+## US Land Disturbance Products
 This product provides disturbance time, agent, agent classification confidence, magnitude, and severity for each year at the Landsat 30m pixel level. For detailed descriptions of each layer, see [Land Disturbance Dataset page](https://github.com/GERSL/usdist/wiki/Land-Disturbance-Dataset).
 
 You can download the Collection 1 dataset from [this link](www.tbd.com).
