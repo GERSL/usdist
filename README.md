@@ -14,7 +14,7 @@ We leveraged long-term historical Landsat data and advanced time series analysis
 ![Workflow](https://github.com/GERSL/usdist/raw/main/figures/fig_flowchart_us_disturbance_product.svg)  
 **Figure 2.** Workflow of U.S. disturbance product. COLD: COntinuous monitoring of Land Disturbance. ODACA: Object-based Disturbance Agent Classification Approach. MAX-RNB: Maximum ratio of near-infrared to blue band reflectance.
 
-## Code Explanations
+## Code Explanation
 We provide the code resources (package name associated with the folder provided in this repository) for our publication, which are programmed in MATLAB (2022b) and Python (3.10):
 - **LandsatData**: Data processing and density analysis (Python)
 - **COLD**: Disturbance detection package (MATLAB)
@@ -22,7 +22,7 @@ We provide the code resources (package name associated with the folder provided 
 - **Analysis**: Code for data analysis and visualization (MATLAB + Python (Jupyter Notebook))
 - **Accuracy**: Accuracy assessment and area adjustment (MATLAB + Python)
 
-## US Land Disturbance Products
+## US Land Disturbance Product
 This product provides disturbance time, agent, agent classification confidence, magnitude, and severity for each year at the Landsat 30m pixel level. For detailed descriptions of each layer, see [Land Disturbance Dataset page](https://github.com/GERSL/usdist/wiki/Land-Disturbance-Dataset).
 
 You can download the Collection 1 dataset from [this link](www.tbd.com).
