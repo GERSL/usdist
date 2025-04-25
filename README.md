@@ -25,6 +25,8 @@ We provide the code resources (package name associated with the folder provided 
 ## US Land Disturbance Product
 This product provides disturbance time, agent, agent classification confidence, magnitude, and severity for each year at the Landsat 30m pixel level. For detailed descriptions of each layer, see [Land Disturbance Dataset page](https://github.com/GERSL/usdist/wiki/Land-Disturbance-Dataset).
 
+You can view the dataset through [Google Earth Engine](https://ee-gers.projects.earthengine.app/view/us-disturbance)-based application.
+
 You can download the Collection 1 dataset (1988–2022; 28 GB compressed, 80 GB uncompressed) from [this link](https://uconn-my.sharepoint.com/:u:/g/personal/shi_qiu_uconn_edu/EfcrNnvj2jpElWNygovkbcQBWRaBvFnQuvPCQfHujNSP-Q?e=9zj3qd).
 
 ## Other
