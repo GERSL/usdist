@@ -15,7 +15,7 @@ We leveraged long-term historical Landsat data and advanced time series analysis
 **Figure 2.** Workflow of U.S. disturbance product. COLD: COntinuous monitoring of Land Disturbance. ODACA: Object-based Disturbance Agent Classification Approach. MAX-RNB: Maximum ratio of near-infrared to blue band reflectance.
 
 ## Code Explanation
-We provide the code resources (package name associated with the folder provided in this repository) for our publication, which are programmed in MATLAB (2022b) and Python (3.10):
+We provide the code resources (package name associated with the folder provided in the code) for our publication, which are programmed in MATLAB (2022b) and Python (3.10):
 - **LandsatData**: Data processing and density analysis (Python)
 - **COLD**: Disturbance detection package (MATLAB)
 - **ODACA**: Disturbance agent classification package (MATLAB + Python)
